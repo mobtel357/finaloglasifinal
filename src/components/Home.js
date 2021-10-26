@@ -33,6 +33,7 @@ export default function Home(props) {
       React.useEffect(()=> {
         getAds().then((data)=>setAds(data))
       },[props]
+      
       )
       
 
